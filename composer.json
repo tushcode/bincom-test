@@ -1,0 +1,23 @@
+{
+  "name": "tushcode/bincomtest",
+  "description": "Preliminary Online Interview Test for Experienced Developer",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Solomon Okafor",
+      "email": "okafor.solomon@ymail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "nette/database": "^3.1",
+    "nette/utils": "^3.2",
+    "nette/http": "^3.1"
+  }
+}
